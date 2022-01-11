@@ -1,0 +1,23 @@
+.EmployeeBrowseJobs {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.EmployeeBrowseJobs .Menu {
+  width: 25%;
+  height: 100vh;
+}
+
+.EmployeeBrowseJobs .ContentList {
+  width: 50%;
+  height: 100vh;
+  background-color: #f3ecff;
+}
+
+.EmployeeBrowseJobs .ContentExtended {
+  width: 25%;
+  height: 100vh;
+}

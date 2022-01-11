@@ -1,0 +1,18 @@
+.SidebarEmployer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  position: fixed;
+}
+
+.SidebarEmployer .WelcomeMessage {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.SidebarEmployer .SidebarButton {
+  margin-top: 10%;
+}

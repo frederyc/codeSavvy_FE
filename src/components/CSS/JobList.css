@@ -1,0 +1,46 @@
+.JobList {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10%;
+  width: 80%;
+  background-color: #f3ecff;
+}
+
+.JobList .ListFilter {
+  display: flex;
+  flex-direction: column;
+  border-width: 0px 0px 3px 0px;
+  padding-bottom: 5%;
+  border-color: #3d4758;
+  border-style: dashed;
+}
+
+.JobList .ListFilter .Row1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+}
+
+.JobList .ListFilter .Row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.JobList .ListFilter select {
+  font-weight: bold;
+  padding: 1%;
+  margin-right: 5%;
+  border-width: 2px;
+  color: #3d4758;
+  border-color: #3d4758;
+  border-radius: 10px;
+}
+
+.JobList .ListFilter .Row1 select {
+  font-size: 2ch;
+}
+
+.JobList .ListFilter .Row2 select {
+  font-size: 1.5ch;
+}

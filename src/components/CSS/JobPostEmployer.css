@@ -1,0 +1,106 @@
+.JobPostEmployer {
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  box-shadow: 0px 4px 8px #3d4758;
+}
+
+.JobPostEmployer .CompanyImageDiv img {
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+}
+
+.JobPostEmployer .JobDescriptionDiv {
+  margin-left: 2.5%;
+  width: 100%;
+}
+
+.JobPostEmployer .JobDescriptionDiv .CompanyFavorites {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.JobPostEmployer .JobDescriptionDiv .CompanyFavorites h1 {
+  width: 70%;
+  font-size: 3ch;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #3d4758;
+}
+
+.JobPostEmployer .JobDescriptionDiv .CompanyFavorites .Favorites {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 30%;
+}
+
+.JobPostEmployer .JobDescriptionDiv .CompanyFavorites .Favorites img {
+  width: 30px;
+  height: 30px;
+  margin-left: 5%;
+}
+
+.JobPostEmployer .JobDescriptionDiv .CompanyFavorites .Favorites img:hover {
+  background-color: #EEEEEE;
+}
+
+.JobPostEmployer .JobDescriptionDiv .PositionSalary {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.JobPostEmployer .JobDescriptionDiv .PositionSalary .Position {
+  width: 70%;
+  font-size: 2ch;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #3d4758;
+}
+
+.JobPostEmployer .JobDescriptionDiv .PositionSalary .Salary {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 30%;
+  font-size: 2ch;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #3d4758;
+}
+
+.JobPostEmployer .JobDescriptionDiv .LevelLocation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 0.5%;
+}
+
+.JobPostEmployer .JobDescriptionDiv .LevelLocation .Level {
+  font-size: 1.5ch;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 70%;
+  color: #3d4758;
+}
+
+.JobPostEmployer .JobDescriptionDiv .LevelLocation .Location {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 1.5ch;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 30%;
+  color: #3d4758;
+  margin-left: 50%;
+}

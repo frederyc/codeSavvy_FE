@@ -1,0 +1,19 @@
+.TextArea {
+  width: 100%;
+}
+
+.TextArea h2 {
+  margin-top: 0%;
+  margin-bottom: 1%;
+  color: #3d4758;
+}
+
+.TextArea textarea {
+  margin-bottom: 1%;
+  border-width: 2px;
+  width: 100%;
+  resize: none;
+  color: #3d4758;
+  font-weight: bold;
+  border-radius: 5px;
+}

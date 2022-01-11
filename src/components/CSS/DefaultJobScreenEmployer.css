@@ -1,0 +1,34 @@
+.DefaultJobScreenEmployer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  height: 100vh;
+  position: fixed;
+}
+
+.DefaultJobScreenEmployer .InsideDiv {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-color: black;
+  border-width: 2px;
+  border-style: dashed;
+}
+
+.DefaultJobScreenEmployer img {
+  width: 256px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.DefaultJobScreenEmployer h3 {
+  color: #b6b6b6;
+  font-size: 2ch;
+  margin-left: auto;
+  margin-right: auto;
+}

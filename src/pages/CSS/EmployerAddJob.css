@@ -1,0 +1,23 @@
+.EmployerAddJob {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.EmployerAddJob .Menu {
+  width: 25%;
+  height: 100vh;
+}
+
+.EmployerAddJob .ContentList {
+  width: 50%;
+  height: 100vh;
+  background-color: #f3ecff;
+}
+
+.EmployerAddJob .ContentExtended {
+  width: 25%;
+  height: 100vh;
+}

@@ -1,0 +1,119 @@
+.JobExtended {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  position: fixed;
+  width: 25%;
+}
+
+.JobExtended .CompanyInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.JobExtended .CompanyInformation img {
+  width: 192px;
+  height: 192px;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+.JobExtended .CompanyInformation h1 {
+  color: #3d4758;
+}
+
+.JobExtended .JobInformation {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+
+  border-width: 0px 0px 2px 0px;
+  border-color: #3d4758;
+  border-style: solid;
+}
+
+.JobExtended .JobInformation h3 {
+  width: 50%;
+  color: #3d4758;
+  font-size: 2ch;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+.JobExtended .JobInformation .Row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.JobExtended .JobInformation .EndText {
+  text-align: end;
+}
+
+.JobExtended .JobInformation .Row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.JobExtended .Qualifications {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+
+  border-width: 0px 0px 2px 0px;
+  border-color: #3d4758;
+  border-style: solid;
+}
+
+.JobExtended .Qualifications h3 {
+  color: #3d4758;
+  font-size: 2ch;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.JobExtended .Qualifications p {
+  color: #3d4758;
+  font-size: 1.5ch;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+.JobExtended .About {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.JobExtended .About h3 {
+  color: #3d4758;
+  font-size: 2ch;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.JobExtended .About p {
+  color: #3d4758;
+  font-size: 1.5ch;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.JobExtended .ButtonDiv {
+  padding-top: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.JobExtended .ButtonDiv .Button {
+  margin-top: 2.5%;
+}

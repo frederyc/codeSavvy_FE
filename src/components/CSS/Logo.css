@@ -1,0 +1,22 @@
+.Logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.Logo img {
+  width: 32px;
+  height: 32px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.Logo h2 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0.4%;
+  font-weight: bold;
+  font-size: 3ch;
+  color: #565656;
+}

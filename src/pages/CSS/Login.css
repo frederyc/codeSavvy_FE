@@ -1,0 +1,65 @@
+.Login {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.Login .UserInformation {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  width: 25%;
+}
+
+.Login .UserInformation .WelcomeMessage {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.Login .UserInformation .TextInput {
+    margin-top: 2%;
+}
+
+.Login .UserInformation .Button {
+  margin-top: 25%;
+  margin-bottom: 10%;
+}
+
+.Login .UserInformation .CreateAccount {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: -5%;
+}
+
+.Login .UserInformation .CreateAccount h5 {
+  color: #b6b6b6;
+  font-size: 1.75ch;
+}
+
+.Login .UserInformation .CreateAccount button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.75ch;
+  font-weight: bold;
+  color: #5160ff;
+  margin-top: 0.75%;
+  margin-bottom: 0%;
+  padding-top: -10%;
+  padding-bottom: 0%;
+}
+
+.Login .UserInformation .CreateAccount button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Login .AdditionalInformation {
+  width: 70%;
+}

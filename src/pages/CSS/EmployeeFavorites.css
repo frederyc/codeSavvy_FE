@@ -1,0 +1,23 @@
+.EmployeeFavorites {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.EmployeeFavorites .Menu {
+  width: 25%;
+  height: 100vh;
+}
+
+.EmployeeFavorites .ContentList {
+  width: 50%;
+  height: 100vh;
+  background-color: #f3ecff;
+}
+
+.EmployeeFavorites .ContentExtended {
+  width: 25%;
+  height: 100vh;
+}

@@ -1,0 +1,68 @@
+.CreateJob {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2.5%;
+  height: 95vh;
+  background-color: #f3ecff;
+}
+
+.CreateJob .CompanyLogo {
+  display: flex;
+  flex-direction: column;
+  border-color: #3d4758;
+  border-style: dashed;
+  border-width: 0px 0px 3px 0px;
+  width: auto;
+}
+
+.CreateJob .CompanyLogo img {
+  width: 256px;
+  height: 256px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CreateJob .CompanyLogo h1 {
+  color: #3d4758;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CreateJob .Content {
+  display: flex;
+  flex-direction: column;
+}
+
+.CreateJob .Content .Create {
+  width: 30%;
+  align-self: flex-end;
+}
+
+.CreateJob .Content .JobDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.CreateJob .Content .JobDetails h2 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  color: #3d4758;
+}
+
+.CreateJob .Content .JobDetails .JobPref select {
+  font-weight: bold;
+  padding: 1%;
+  margin-right: 5%;
+  border-width: 2px;
+  color: #3d4758;
+  border-color: #3d4758;
+  border-radius: 10px;
+  font-size: 1.5ch;
+  width: 20%;
+}
+
+.CreateJob .Content .JobDetails .JobPref {
+  margin-bottom: 1%;
+}

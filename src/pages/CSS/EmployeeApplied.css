@@ -1,0 +1,23 @@
+.EmployeeApplied {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.EmployeeApplied .Menu {
+  width: 25%;
+  height: 100vh;
+}
+
+.EmployeeApplied .ContentList {
+  width: 50%;
+  height: 100vh;
+  background-color: #f3ecff;
+}
+
+.EmployeeApplied .ContentExtended {
+  width: 25%;
+  height: 100vh;
+}
